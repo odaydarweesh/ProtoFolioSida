@@ -1,0 +1,137 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(78, 20, 61);
+    box-sizing: border-box;
+}
+body {
+    min-height: 100%;
+    background-color: rgb(78, 20, 61);
+}
+.container {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "bilden"
+    "namn"
+    "abilities"
+    "skills";
+    width: 100vw;
+    height: 100vh;
+}
+@media (min-width: 900px) {
+  .container {
+      grid-template-columns: 3fr 2fr;
+  }
+  body{
+    overflow: hidden;
+}
+}
+@media (min-width: 1000px) {
+  .container {
+    grid-template-areas:
+      "namn bilden"
+      "abilities " "skills ";  
+  }
+  body {
+    overflow: hidden;
+}
+}
+.namn{
+    color: rgb(255, 164, 164);
+    padding-top: 0.625em;
+    padding-left: 5%;
+    text-align: justify;
+    width: 80%;
+}
+.bilden {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: static;
+    padding-top: 0.3125em;
+    padding-left: 0.3125em;
+    margin-bottom: 0.3125em;
+}
+li {
+    position: relative;
+    list-style: none;
+    margin: 1.55625em 0.625em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 0.625em);
+    left: 0;
+    width: 10%;
+    height: 0.9375em;
+    background-color: #c0c0c0;
+    border-radius: 37.5em;
+}
+li:after{
+    content: "";
+    text-align: center;
+    position:absolute;
+    top: calc(100% + 0.625em);
+    left: 0;
+    width: 0.625em;
+    height: 0.9375em;
+    background-color: #7f27a1;;
+    border-radius: 37.5em;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+li.html:after {
+    content: "7/10";
+    animation-name: html;
+}
+@keyframes html {
+    to {
+        width: 60%;
+    }   
+}
+li.css:after {
+    content: "8/10";
+    animation-name: css;
+}
+@keyframes css {
+    to{
+        width: 65%;
+    }   
+}
+li.js:after {
+    content: "7/10";
+    animation-name: js;
+}
+@keyframes js {
+    to{
+        width: 65%;
+    }   
+}
+li.jq:after {
+    content: "6/10";
+    animation-name: jq;
+}
+@keyframes jq {
+    to{
+        width: 60%;
+    }   
+}
+.abilities{
+    color:rgb(252, 156, 156); 
+    width: 60%;
+    text-align: justify;
+    padding-left: 0.9375em;
+    padding-top: 2%;
+    padding-bottom: 0.3125em;
+}
+.skills{
+    padding-left: 0.9375em;
+    width: 90%;
+    padding-top: 0;
+    padding-bottom: 4.9875em;
+}

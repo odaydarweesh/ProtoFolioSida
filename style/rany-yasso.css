@@ -1,0 +1,113 @@
+html {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+body {
+    height: 150%;
+    background-image: url('bilder//image/b1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-sizing: border-box;
+}
+@media (min-width: 900px) {
+  .andra {
+      grid-template-columns: 3fr 2fr;
+    
+  }
+  body {
+      overflow:auto;
+  }
+}
+.beskrivning{
+    color: rgb(255, 255, 255);
+    padding-top: 0.6250em;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align:center;
+    text-align: justify;
+}
+li {
+    position: relative;
+    list-style: none;
+    margin: 1.5625em 0.6250em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+li:before {
+    content: "";
+    position: absolute;
+    top: calc(100% + 0.6250em);
+    left: 0;
+    width: 10%;
+    height: 0.9375em;
+    background-color: #ffffff;
+    border-radius: 37.5em;
+ }
+li:after{
+    content: "";
+    position:absolute;
+    top: calc(100% + 0.6250em);
+    left: 0;
+    width: 0.6250em;
+    height: 0.9375em;
+    background-color: #cc2929;;
+    border-radius: 37.5em;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+li.html:after {
+    content: "7/10";
+    animation-name: html;
+}
+@keyframes html {
+    to {
+        width: 70%;
+    }   
+}
+li.css:after {
+    content: "7/10";
+    animation-name: css;
+}
+@keyframes css {
+    to{
+        width: 70%;
+    }   
+}
+li.js:after {
+    content: "4/10";
+    animation-name: js;
+}
+@keyframes js {
+    to{
+        width: 40%;
+    }   
+}
+li.jq:after {
+    content: "5/10";
+    animation-name: jq;
+}
+@keyframes jq {
+    to{
+        width: 50%;
+    }   
+}
+li.java:after {
+    content: "6/10";
+    animation-name: jq;
+}
+@keyframes java {
+    to{
+        width: 60%;
+    }   
+}
+.skills{
+    padding-left: 10%;
+    padding-right: 20%;
+}

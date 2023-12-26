@@ -1,0 +1,37 @@
+
+#grupp15{
+    background-image: url('bilder/Image/b1.jpg');
+    background-color: purple;
+    background-position: bottom;
+    background-size: 160em 160em;
+    padding: 1.25em;
+    height: 100%;
+
+   }
+
+#medlem{
+    background-image: url('bilder/Image/background1.jpg');
+    background-attachment: fixed;
+    background-color: rgb(34, 0, 128);
+    color: rgb(0, 0, 0);
+    background-position: bottom left;
+    text-align: justify; 
+    padding: 1.5625em;
+    height: 100%;
+}
+.wrapper {
+    box-shadow: 0 0 0.3125em 0 rgba(0, 0, 0, 0.2);
+   
+}
+.wrapper > * {
+    padding: 1em;
+}
+@media (min-width: 768px) {
+    .wrapper {
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .wrapper > * {
+        padding: 2em 2em;
+    }
+}

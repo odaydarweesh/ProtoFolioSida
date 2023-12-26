@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<projekt>
+
+    <projekt id="p1">
+        <manager>Oday Darweesh</manager>
+        <title>projekt1</title>
+        <imag>img1.jpg</imag>
+        <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, officiis! Pariatur laborum odit quo
+            deleniti sunt natus atque quasi tenetur unde et labore tempora ipsam iure adipisci ea incidunt impedit
+            qui, amet rem harum. Rem, ipsum aut. Quaerat nemo repudiandae necessitatibus magni, enim asperiores 
+            illum at beatae exercitationem! Maiores, fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Officia, officiis! Pariatur laborum odit quo deleniti sunt natus atque quasi tenetur unde et labore 
+            tempora ipsam iure adipisci ea incidunt impedit qui, amet rem harum. Rem, ipsum aut. Quaerat nemo 
+            repudiandae necessitatibus magni, enim asperiores illum at beatae exercitationem! Maiores, fuga!</description>
+ </projekt>
+
+     <projekt id="p2">
+        <manager>Samer Salkini</manager>
+        <title>projekt2</title>
+        <imag>img2.jpg</imag>
+        <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deleniti consectetur est perferendis 
+            quaerat cupiditate molestiae natus rem reiciendis ut, eius cumque modi eum placeat. Pariatur minima 
+            officiis soluta dicta consequatur amet repellat. Voluptate, voluptatibus. Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Officia, officiis! Pariatur laborum odit quo
+            deleniti sunt natus atque quasi tenetur unde et labore tempora ipsam iure adipisci ea incidunt impedit
+            qui, amet rem harum. Rem, ipsum aut. Quaerat nemo repudiandae necessitatibus magni, enim asperiores 
+            illum at beatae exercitationem! Maiores, fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Officia, officiis! Pariatur laborum odit quo deleniti sunt natus atque quasi tenetur unde et labore 
+            tempora ipsam iure adipisci ea incidunt impedit qui, amet rem harum. Rem, ipsum aut. Quaerat nemo 
+            repudiandae necessitatibus magni, enim asperiores illum at beatae exercitationem! Maiores, fuga!</description>
+     </projekt>
+
+    <projekt id="p3">
+        <manager>Rany Yasso</manager>
+        <title>projekt3</title>
+        <imag>img3.jpg</imag>
+        <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deleniti consectetur est perferendis 
+            quaerat cupiditate molestiae natus rem reiciendis ut, eius cumque modi eum placeat. Pariatur minima 
+            officiis soluta dicta consequatur amet repellat. Voluptate, voluptatibus. Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. Officia, officiis! Pariatur laborum odit quo
+            deleniti sunt natus atque quasi tenetur unde et labore tempora ipsam iure adipisci ea incidunt impedit
+            qui, amet rem harum. Rem, ipsum aut. Quaerat nemo repudiandae necessitatibus magni, enim asperiores 
+            illum at beatae exercitationem! Maiores, fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Officia, officiis! Pariatur laborum odit quo deleniti sunt natus atque quasi tenetur unde et labore 
+            tempora ipsam iure adipisci ea incidunt impedit qui, amet rem harum. Rem, ipsum aut. Quaerat nemo 
+            repudiandae necessitatibus magni, enim asperiores illum at beatae exercitationem! Maiores, fuga!</description>
+     </projekt>
+
+       <projekt id="p4">
+            <manager>Isabell Yilmaz</manager>
+            <title>projekt4</title>
+            <imag>img4.jpg</imag>
+            <description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere deleniti consectetur est perferendis 
+                quaerat cupiditate molestiae natus rem reiciendis ut, eius cumque modi eum placeat. Pariatur minima 
+                officiis soluta dicta consequatur amet repellat. Voluptate, voluptatibus. Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Officia, officiis! Pariatur laborum odit quo
+                deleniti sunt natus atque quasi tenetur unde et labore tempora ipsam iure adipisci ea incidunt impedit
+                qui, amet rem harum. Rem, ipsum aut. Quaerat nemo repudiandae necessitatibus magni, enim asperiores 
+                illum at beatae exercitationem! Maiores, fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Officia, officiis! Pariatur laborum odit quo deleniti sunt natus atque quasi tenetur unde et labore 
+                tempora ipsam iure adipisci ea incidunt impedit qui, amet rem harum. Rem, ipsum aut. Quaerat nemo 
+                repudiandae necessitatibus magni, enim asperiores illum at beatae exercitationem! Maiores, fuga!</description>
+        </projekt>
+        
+        
+</projekt>

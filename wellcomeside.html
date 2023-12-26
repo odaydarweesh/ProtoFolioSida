@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vällkommen till Grupp 15 hemsida</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/wellcome.css">
+   
+</head>
+<body>
+    <div class="slidefoto" id = "slideImg">
+            <img class="slideimage" src="bilder/image/JavaBilder.jpg" alt="Program Picture1">
+            <img class="slideimage" src="bilder/image/background.jpg" alt="Program Picture2">
+            <img class="slideimage" src="bilder/image/img3.jpg" alt="Program Picture3">
+            <img class="slideimage" src="bilder/image/img2.jpg" alt="Program Picture4">
+  
+        <div class="show_middle">
+            <div class="content">
+                <h2><b>Välkommen alla besökare</b></h2><br>
+                <h3>Här har vi portfolio hemsida för Grupp 15</h3>
+                <br/>   
+              
+                <form action="presentationside.html" method="get">
+                    <button> Läs mer</button></form>
+            </div>
+        </div> 
+
+        <div>
+            <button class="change_left" onclick="changeImage(-1)"><ion-icon name="arrow-back-outline"></ion-icon></button>
+           <button class="stop_button" onclick="stopButtonSlide()">
+                <ion-icon name="caret-forward-outline"></ion-icon>
+                <ion-icon name="pause-outline"></ion-icon>
+            </button>
+           
+            
+                <button class="change_right" onclick="changeImage(1)"><ion-icon name="arrow-forward-outline"></ion-icon></button>
+             
+        </div> 
+    </div>
+   <script src="scripts/Validate.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="scripts/imageSlideshow.js"></script> 
+   
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktsida</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/kontaktsida.css">
+    <link rel="stylesheet" href="./scripts/navi.js">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.16/esri/css/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="meny" id="meny">
+        <a href="wellcomeside.html"><ion-icon name="home-outline"></ion-icon></a>
+        <a href="presentationside.html">Om Oss</a>
+        <a href="protofoliosida.html">Våra Projekt</a>
+        <a href="oday-darweesh.html">Oday Darweesh</a>
+        <a href="samer-salkini.html">Samer Salkini</a>
+        <a href="rany-yasso.html">Rany Yasso</a>
+        <a href="isabell-yilmaz.html">Isabell Yilmaz</a>
+        <a href="kontaktsida.html">Kontakta Oss</a>
+        <a href="javascript:void(0);" class="icon" onclick="HamburgerMeny()">
+         <i class="fa fa-bars"></i></a>
+    </div>
+
+    <div class="container">
+        <div class="wrapper">
+         <div class="kontaktinformation">
+                <h2>Kontakta oss </h2><br><br>
+                <ul>
+                    <li>Fakultetsgatan1</li>
+                    <li>70281 Örebro </li > 
+                   
+                    <li><a href ="mailto:studentcentrum@oru.se">Örebro Universitet </a></li>
+                    <li><a href ="mailto:odaydarweesh@gmail.com">Oday Darweesh </a></li>
+                    <li><a href ="mailto:samer.salkini93@gmail.com">Samer Salkini</a></li>
+                    <li><a href ="mailto:rany.yasso@gmail.com">Rany Yasso</a></li>
+                    <li><a href ="mailto:isabell.yilmaz@gmail.com">Isabell Yilmaz</a></li>
+                    <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039.679795133736!2d15.247096715574358!3d59.25479102403949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465c68be4bfe7837%3A0xdfdabe0078c8642!2s%C3%96rebro%20universitet!5e0!3m2!1ssv!2sse!4v1632692386200!5m2!1ssv!2sse"
+                         width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" ></iframe></li>
+                </ul>
+                            
+         </div>
+         <div class="form">
+                <form >
+                    <p>
+                        <label for="förname">Förnamn</label>
+                        <input type="text" name="förname" id="förname" placeholder="Minst tre tecken" required>
+                        <!-- pattern="[a-z]{3,15}" -->
+                    </p>
+                    <p>
+                        <label for="eftername">Efternamn</label>
+                        <input type="text" name="eftername" id="eftername" placeholder=" Minst tre tecken" required>
+                        <!-- pattern="[a-z]{3,15}" -->
+                    </p>
+                    <p>
+                        <label for="tel">Telefonnummer</label>
+                        <input type="tel"  name="tel" id="tel" pattern="[0-9]{4,15}"  placeholder="07, 0046, +46 + 10-12 siffror" required>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required   placeholder=" E-post">
+                    </p>
+                    <p class="skicka">
+                        <label for="message">Meddelande</label>
+                        <textarea id="message" name="message" cols="40" rows="10"  required  placeholder= "Skriv ditt meddelande här"></textarea >
+                    </p>
+                    <p class="skicka">
+                        <button id="submit"><span>Skicka</span></button>
+                    </p>
+                </form>
+        </div>
+    </div>
+    </div>
+    <script src="scripts/navi.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="scripts/Validate.js"></script>
+</body>
+
+</html>
